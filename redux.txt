@@ -1,0 +1,21 @@
+react redux is for implementing redux
+start with store {only one  in a app}
+in store a configure store
+reducers for data flow;
+for slice create slice a name of slice initialstate{default state of store} list of reducers;
+feature are also said to be slice;
+by default initialstate wil be some DS like aray ,id whatever
+in reducers we will do key functions
+two things will be accesable state,action
+state: updated state value in the store
+actions:action.payload
+And then push in store 
+export indivisual functionalitty ; 10 reducers 10 exports
+and main export of reducers
+components we have to send value use dispatch, in dispatch send reducer 
+e.g add todo
+for using or selecting value or retrieving from store 
+use useselector 
+put in variable;
+remove todo
+we have to send action in store; 
